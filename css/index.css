@@ -226,7 +226,7 @@ main{
     gap: 32px;
     justify-content: space-between;
     margin-bottom: 80px;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .hero-section > *{
@@ -295,10 +295,10 @@ main{
     background-color: white;
     border: 1px solid;
     border-radius: 16px;
-    border-color: rgb(31, 77, 57,.2);
+    border-color: rgb(31, 77, 57, .2);
     padding: 24px 25px;
-    flex: 1 1 300px;
-    min-height: 220px;
+    /* flex: 1 1 300px; */
+    /* min-height: 220px;
 }
 
 .cards{
