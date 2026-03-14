@@ -493,7 +493,9 @@ main{
 }
 
 .rev-cards .rev-card .rev-img{
+    margin-right: auto;
     text-align: center;
+    margin-left: auto;
 
 }
 
