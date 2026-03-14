@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: #F7F4ED; */
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.container{
+    padding: 32px;
+}
+
+.pricing .price-card p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #D64545;
+    background-color: rgb(214, 69, 69,.1);
+    width: fit-content;
+    border-radius: 999px;
+    padding: 6px 12px;
+}
+
+.pricing .price-left p{
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    color: #6B8077;
+    text-transform: uppercase; 
+}
+
+.pricing .price-left h4{
+    font-size: 28px;
+    font-weight: 600;
+    color: #1F4D39;
+}
+
+.pricing {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 437px ; */
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+
+.highlights .chip p{
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .7px;
+    color: #1F4D39;
+    text-transform: uppercase;
+    padding: 6px 16px;
+    background-color: rgb(31, 77, 57,.1);
+    width: fit-content;
+    border-radius: 24px;
+}
+
+
+.highlights .chips{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+
+.highlights  .quick-actions {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 24px;
+
+
+}
+
+.highlights .quick-action{
+    color: #1F4D39;
+    align-items: center;
+}
+
+.highlights .share{
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 999px; 
+}
+
+
+.highlights .heart{
+    background-color: aliceblue;
+    padding: 10px;   
+    border-radius: 999px; 
+}
+
+
+.highlights {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 300px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    margin-bottom: 32px;
+}
+
+
+.about-the-event .event-title h2{
+    color:#1F4D39;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 18px;
+
+}
+
+.about-the-event .event-content p{
+    font-size: 16px;
+    font-weight:400;
+    color: #5F8072;
+    line-height: 130%;
+    
+    
+}
+
+.event-content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.about-the-event{
+    margin-bottom: 24px;
+}
+
+
+.card .icon {
+    color:#1F4D39;
+}
+
+.card .card-title h6{
+    font-size: 16px;
+    font-weight: 500;
+    color: #1F4D39;
+}
+
+
+.card .card-title p{
+    font-size: 14px;
+    font-weight: 500 ;
+    color: #6B8077;
+}
+
+.card-title{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+
+.card{
+    background-color: white;
+    border-radius: 24px;
+    border: 1px solid;
+    border-color: #6B8077;
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 24px;
+    flex: 1 1 ;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+
+.venue .venue-action p{
+    color: #1F4D39;
+    font-size: 14px;
+    font-weight: 600;
+    align-items: center;
+}
+
+
+.venue .venue-address h4{
+    font-size:14px ;
+    font-weight: 500;
+    color: #131615;
+}
+
+.venue .venue-address p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #6B8077;
+
+}
+
+.venue-location .location{
+    color: #1F4D39;
+    background-color:rgb(31, 77, 57,.1);
+    padding: 8px;
+    border-radius:16px ;
+}
+
+.venue-location {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 200px;
+    gap:12px ;
+    width: fit-content;
+    padding: 16px;
+    align-items: center;
+}
+
+.venue{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 300px;
+    margin-bottom: 32px;
+    background-color: white;
+    border-radius: 24px;
+    border: 1px solid;
+    align-items: center;
+    padding: 16px;
+    
+}
+
+
+.sec-btn a{
+    text-decoration: none;
+    color: #1F4D39;
+}
+
+.sec-btn{
+     font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+    border: none;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn{
+    background-color: #1F4D39;
+    border: none;
+    border-radius: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 99px;
+
+}
+
+
+/* this doubt to be cleared how align item works */
+
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    gap: 18px;
+}
