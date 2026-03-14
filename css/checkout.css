@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+
+
+:root{
+    --text: #1F4D39;
+
+}
+
+
+.container{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left .reservation .step-number{
+    color:var(--text);
+    font-size: 14px;
+    font-weight: 700;
+    background-color:#E9EDEB ;
+    border-radius: 100px;
+    padding: 7px 13px ;
+}
+
+.left .reservation .step-header h2{
+    font-size: 18px;
+    font-weight: 500;
+    color: #111815;
+}
+
+
+.left{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-grow: 1;
+
+}
+
+
+.step-header{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap:12px ;
+    align-items: center;
+}
+
+.guest-selection .guest-info h4{
+    font-size: 18px;
+    font-weight: 500;
+    color: #111815; 
+}
+
+.guest-selection .guest-info p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5f8072;
+}
+
+.guest-info{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 6px;
+}
+
+.guest-count .count{
+    color: #1F4D39;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 100px;
+    padding: 8px;
+}
+
+.guest-count span{
+    color: #111815;
+    font-size:24px ;
+    font-weight: 700;
+}
+
+.guest-count{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+}
+
+.guest-selection{
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FDFCF9;
+    padding: 12px;
+    border-radius:14px ;
+    border: 1px solid;
+    border-color: #D5E1DC;
+}
+
+.reservation{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom:24px ;
+}
+
+.reservation label{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5f8072;
+    text-transform: capitalize;
+}
+
+ .box{
+    display: flex;
+    flex-grow: 1;
+    background-color: white;
+    border: 1px solid;
+    border-color:#D5E1DC ;
+    padding:18px 12px ;
+    border-radius: 14px;
+    
+}
+
+.form-group .country{
+    font-size:14px ;
+    font-weight: 400;
+    color: #6B7280;
+    background-color: white;
+    padding:15px 20px ;
+    border: 1px solid;
+    border-color: #D5E1DC;
+    border-radius: 14px;
+    
+}
+
+.form-group .number{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.form-group .phone-group {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:8px ;
+    
+}
+
+.form-group{
+    flex-grow: 1;
+    display: block flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.reservation .form-grid{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.reservation-action .primary-cta{
+    font-size:18px;
+    font-weight: 600;
+    color: white;
+    background-color: #1F4D39;
+    padding: 24px 200px ;
+    border-radius: 24px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.reservation-action .secondary-note{
+    font-size: 14px;
+    font-weight: normal;
+    color:#5F8675 ;
+    align-items: center;
+    display: flex;
+    gap: 8px;
+}
+
+.reservation-action .secure{
+    color:#5F8675 ;
+    
+}
+
+.reservation-action{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 18px;
+    align-items: center;
+}
+
+
+.container .left{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.price-summary .price-title{
+    font-size: 18px;
+    font-weight: 600;
+    color: #111815;
+    text-transform: capitalize;
+}
+
+.price-details .price-detail{
+    font-size: 16px;
+    font-weight: normal;
+    color: #5f8675;
+}
+
+.price-detail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.price-details{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap:16px ;
+}
+
+.price-total h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #111815;
+}
+
+.price-total p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #1F4D39;
+    
+}
+
+.price-total{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.price-title h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #111815;
+}
+.price-summary{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 24px;
+    background-color: white;
+    padding: 32px;
+    border: 1px solid;
+    border-radius: 24px;
+    border-color: #D5E1DC;
+}
+
+
+.booking-rule ul li{
+    font-size:14px;
+    font-weight: 500;
+    color: #e6f2ec;
+}
+
+.booking-rule ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.booking-rule h3{
+  font-size: 18px;  
+  font-weight: 600;
+  color: white;
+}
+
+.booking-rule{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 16px;
+    padding:24px 32px ;
+    background-color: #1F4D39;
+    border-radius: 24px;
+
+}
+
+
+.cancellation-policy h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: #9e4a44;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.cancellation-policy p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5f8675;
+    line-height: 130%;
+}
+
+.cancellation-policy{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 12px;
+    padding: 24px;
+    border-radius: 24px;
+    border: 1px solid;
+    border-color:#ECDBDA ;
+}
+
+
+.right{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 24px;
+    width: 400px;
+    flex-grow: 1;
+}
+
+
+/* main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+} */
+
+.overall{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 24px;
+    gap: 32px;
+}
