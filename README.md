@@ -71,7 +71,7 @@ This project was created to strengthen skills in:
 
 ## 📸 Screenshots
 
-*(Add screenshots of your website here)*
+![Hero](.Booking section.png)
 
 Example:
 
