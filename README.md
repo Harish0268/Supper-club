@@ -69,18 +69,6 @@ This project was created to strengthen skills in:
 
 ---
 
-## 📸 Screenshots
-
-![Hero](.Booking section.png)
-
-Example:
-
-* Hero Section
-* Menu Section
-* About Section
-* Contact Section
-
----
 
 ## 📦 How to Run the Project
 
