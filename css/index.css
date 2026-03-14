@@ -33,6 +33,15 @@ nav{
 body{
   background-color: var(--primarycolor);  
 }
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+main{
+    display: block;
+}
 .container{
     width: 95%;
     margin-left: auto;
@@ -220,8 +229,16 @@ body{
     margin-top: 40px;
 }
 
+.hero-section > *{
+    flex: 1 1 320px;
+}
+
 .hero-left{
     margin-left: 40px;
+}
+
+.hero-right{
+    min-height: 420px;
 }
 
 .width{
@@ -230,6 +247,7 @@ body{
 
 .section-header{
     margin-bottom: 42px;
+    min-height: 88px;
 }
 
 .section-header h4{
@@ -279,8 +297,8 @@ body{
     border-radius: 16px;
     border-color: rgb(31, 77, 57,.2);
     padding: 24px 25px;
-    width: fit-content;
     flex: 1 1 300px;
+    min-height: 220px;
 }
 
 .cards{
@@ -288,6 +306,7 @@ body{
     flex: wrap;
     width: 100%;
     gap: 24px;
+    align-items: stretch;
 }
 
 .experience-categories{
@@ -345,10 +364,16 @@ body{
     margin-bottom: 16px;
 }
 
+.events .event-img{
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+}
+
 .events .event-img img{
     border-radius:18px 18px 0px 0px ;
-    /* margin-bottom: 24px; */
-    width: fit-content;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .event-card .alert{
@@ -391,13 +416,21 @@ body{
 
 .events .event-bottom{
     padding: 24px;
+    min-height: 184px;
+    display: flex;
+    flex-direction: column;
 }
 
 .event-card{
     position: relative;
     background-color: var(--white);
-    width: fit-content;
+    width: 100%;
+    max-width: 334px;
     border-radius: 18px;
+}
+
+.events .event-btn{
+    margin-top: auto;
 }
 
 .events .event-cards{
