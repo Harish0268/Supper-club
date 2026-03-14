@@ -1,7 +1,8 @@
 # Supper Club 🍽️
 
-A modern restaurant landing page built with HTML, CSS.
-This project focuses on creating a visually appealing user interface with clean layout structure, and optimized web performance.
+A modern Club Booking Website that allows users to explore the club, view services, and book reservations for an exclusive nightlife experience.
+
+This project focuses on building a visually engaging interface while implementing clean and structured frontend development practices.
 
 ---
 
@@ -9,13 +10,12 @@ This project focuses on creating a visually appealing user interface with clean 
 
 You can view the project by opening the [`Supper club`](https://harish0268.github.io/Supper-club/) file in your browser.
 
-*(Optional: If you host on GitHub Pages, add the live link here)*
-
 ---
 
 ## 📌 Project Overview
 
-Supper Club is a responsive restaurant website concept designed to showcase a premium dining experience.
+Supper Club is a concept website designed for a premium nightlife club where users can explore the club experience and make reservations online.
+
 The layout emphasizes elegant typography, engaging visuals, and smooth navigation to provide users with a clear and enjoyable browsing experience.
 
 This project was built to practice **frontend development and UI implementation from design concepts**.
@@ -100,12 +100,19 @@ cd Supper-club
 
 ---
 
-## 👨‍💻 Author
+## About the Developer
 
-**Hariharan R**
+Hi, I'm **Hariharan R** — a budding **Developer and UX/UI Designer** passionate about building visually appealing and user-friendly digital experiences.
 
-* UX/UI Designer & Frontend Developer
-* Passionate about building user-friendly digital experiences
+I enjoy combining **design thinking with frontend development** to create responsive and engaging web interfaces.
+
+Currently focusing on:
+
+* Frontend Development
+* UX/UI Design
+* Web Performance Optimization
+* Building real-world projects
+
 
 GitHub:
 https://github.com/Harish0268
