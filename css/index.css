@@ -297,8 +297,8 @@ main{
     border-radius: 16px;
     border-color: rgb(31, 77, 57, .2);
     padding: 24px 25px;
-    /* flex: 1 1 300px; */
-    /* min-height: 220px;
+    /* /* flex: 1 1 300px;
+    /* min-height: 220px; */
 }
 
 .cards{
@@ -431,12 +431,12 @@ main{
 
 .events .event-btn{
     margin-top: auto;
-}
+} 
 
 .events .event-cards{
     display: flex;
     flex-wrap: wrap;
-    /* width: 100%; */
+    width: 100%;
     flex: 1 1 300px;
     /* justify-content: center; */
     gap: 32px;
